@@ -1,15 +1,18 @@
 [![Build Status](https://travis-ci.org/brave/ad-block.svg?branch=master)](https://travis-ci.org/brave/ad-block)
 
-# Brave Ad Block
+# Brave Ad Block (older nodes version)
 
 Native node module, and C++ library for Adblock Plus filter parsing for lists like EasyList.
 
 It uses a bloom filter and Rabin-Karp algorithm to be super fast.
 
+Note: this fork is an older version of Brave's ad-block suitable to work with older nodes, because its native content can't be compiled with some older versions. It has been fixed so all dependences are compatible with them.
+
 ## To include brave/ad-block in your project:
 
 ```
-npm install --save ad-block
+npm install --save git://github.com/rt2zz/redux-persist.git
+
 ```
 
 ## JS Sample
